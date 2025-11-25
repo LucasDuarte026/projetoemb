@@ -1,0 +1,10 @@
+adicionar no sudo nano /boot/firmware/config.txt:
+start_x=1
+gpu_mem=256
+
+
+se der erro, remover 
+#camera_auto_detect=1
+
+e adicionar
+dtoverlay=ov5647  # Para câmera v1
